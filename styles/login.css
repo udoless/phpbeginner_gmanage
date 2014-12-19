@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+body{
+	background:#fff;
+}
+#login{
+	width:500px;
+	height:320px;
+	border-bottom:3px solid highlight;
+	border-top:2px solid highlight;
+	margin:140px auto;
+}
+#login form{
+	width:280px;
+	height:280px;
+	margin:0 auto;
+}
+#login form dl dd label{
+	font-size:14px;
+}
+#login h1 img{
+	width:500px;
+	height:95px;
+	padding-bottom:20px;
+}
+
+#login form dl dd{
+	padding:8px 0 0 0;
+}
+#login form dl dd input.text{	
+	width:220px;
+	height:24px;
+}	
+#login form dl dd input.code{
+	width:75px;
+}
+#login form dl dd img#code{
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#login form dl dd input.button{
+	width:70px;
+	height:27px;
+	margin-left:20px;
+	margin-top:25px;
+	cursor:pointer;
+}
+
+#login form dl dd input.button:hover{
+	background:inactivecaption;
+}
+h3{
+	top:-92px;
+}

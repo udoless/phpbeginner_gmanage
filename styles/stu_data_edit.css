@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+input{
+	background:#fff;
+	border:1px solid #666;
+	border-radius:0px; 
+	box-shadow:inset 0 0 0px #999; 
+}
+#main form{
+	border:1px solid #999;
+	font-size:15px;
+	width:400px;
+	margin:30px auto 0 auto;
+	padding:0 20px;
+}
+#main form dl dt{
+	width:440px;
+	font-size:18px;
+	text-align:center;
+	height:25px;
+	line-height:25px;
+	background:lightblue;
+	border-bottom:2px solid #999;
+	margin-bottom:10px;
+	position:relative;
+	left:-20px;   
+}
+#main form dl dd{
+	margin-top:20px;
+	padding:0px 0 5px 0;
+	border-bottom:1px dashed #ccc;
+}
+#main form dl dd img#waitPic{
+	width:10px;
+	height:10px;
+}
+#main form dl dd input.text{	
+	width:200px;
+	height:24px;
+	border-radius:3px; 
+}
+#main form dl dd input:focus{
+	border:1px solid #1E90FF;
+}
+#main form dl dd select{
+	height:20px;
+}
+#main form dl dd input.radio{
+	margin-left:15px;
+}
+#main form dl dd input.button{
+	width:70px;
+	height:27px;
+	margin-left:30px;
+	margin-top:25px;
+	cursor:pointer;
+}
+
+#main form dl dd input.button:hover{
+	background:inactivecaption;
+}
+#main form dl dd input.code{
+	width:75px;
+}
+#main form dl dd img#code{
+	width:75px;
+	height:25px;
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#citySpan,#townSpan,#waitPic {
+display:none;
+}

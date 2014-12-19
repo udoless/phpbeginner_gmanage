@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+#main_in{
+	padding-bottom:20px;
+	border:1px solid #999;
+	font-size:14px;
+	width:500px;
+	margin:20px auto 0 auto;
+}
+#main_in dl dt{
+	font-size:18px;
+	text-align:center;
+	height:25px;
+	line-height:25px;
+	background:lightblue;
+	border-bottom:2px solid #999;
+	margin-bottom:10px;
+	position:relative;
+}
+#main_in dl dt img{
+	background:#fff;
+	padding:15px;
+	width:100px;
+	height:110px;
+	position:absolute;
+	top:45px;
+	right:35px;
+}
+#main_in dl dd{
+	margin:0 auto;
+	width:400px;
+	padding:15px 0 3px 0;
+	border-bottom:1px dashed #ccc;
+}
+#main_in dl dd a{
+	color:blue;
+	text-decoration:underline;
+}
+#main_in dl dd a:hover{
+	color:red;
+}
+#main_in dl dd input.button{
+	width:70px;
+	height:27px;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+#main_in dl dd input.button:hover{
+	background:inactivecaption;
+}

@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+#main_in{
+	padding-bottom:20px;
+	border:1px solid #999;
+	font-size:14px;
+	width:600px;
+	margin:20px auto 0 auto;
+}
+#main_in form dl dt{
+	font-size:16px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	background:lightblue;
+	border-bottom:2px solid #999;
+	
+}
+#main_in form dl dd{
+	padding-top:10px;
+}
+#main_in form dl dd span{
+	position:relative;
+	top:-136px;
+}
+#main_in form dl dd input{
+	width:300px;
+	height:22px;
+}
+#main_in form dl dd input:focus{
+	border-color:lightblue;
+}
+#main_in form dl dd textarea{
+	width:520px;
+	height:220px;
+	border:1px solid #ccc;
+}
+#main_in form dl dd textarea:focus{
+	border-color:lightblue;
+}
+#main_in form dl dd input.button{
+	width:70px;
+	height:27px;
+	margin-left:40px;
+	margin-top:15px;
+	cursor:pointer;
+}
+
+#main_in form dl dd input.button:hover{
+	background:inactivecaption;
+}

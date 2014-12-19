@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+#list{
+	font-size:12px;
+	width:600px;
+	margin:0 auto;
+	padding:20px 10px 40px 10px;
+}
+#list ul{
+	margin-bottom:50px;
+	line-height:150%;
+}
+#list ul li.top{
+	font-size:16px;
+	margin-bottom:5px;
+	text-align:center;
+	line-height:25px;
+	height:25px;
+	background:lightblue;
+	border-bottom:2px solid #999;
+}
+#list ul li.time{
+	background:url("../images/ico.gif") no-repeat left center;
+	color:orange;
+	font-weight:bold;
+	padding-left:12px;
+}
+#list ul li.title{
+	padding-left:12px;
+	color:#000;
+}
+#list ul li.title span{
+	display:none;
+}
+#list ul li.title span a{
+	color:blue;
+}
+#list ul li.title span a:hover{
+	color:red;
+}
+#list ul li.title:hover span{
+	display:inline;
+}
+#list ul li.title a:hover{
+	color:#666;
+}
+#list ul li.line{
+	padding-top:3px;
+	border-top:1px solid #ccc;
+}

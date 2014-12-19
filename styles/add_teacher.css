@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+#main_in{
+	width:45%;                                                                                                             
+	height:200px;
+	margin:20px auto 0 auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+#main_in legend{
+	font-size:14px;
+	border:1px solid lightblue;
+	padding:2px;
+}
+#main_in form{
+	width:50%;
+	margin:10px auto;
+}
+#main_in form input{
+	height:20px;
+	margin:5px 0;
+}
+#main_in form input.submit{
+	width:65px;
+	height:23px;
+	display:block;
+	margin:10px auto;
+}
+	

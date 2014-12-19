@@ -1,0 +1,88 @@
+#condition{
+	width:80%;
+	margin:10px auto;
+	
+}
+#form1{
+	width:100%;
+	border-bottom:1px solid #999;
+	float:left;
+	padding-bottom:5px;
+}
+#form1 .submit{
+	float:right;
+	clear:both;
+	display:block;
+	cursor:pointer;
+}
+#main h2{
+	cursor:pointer;
+	width:80%;
+	margin:0 auto;
+	font-weight:normal;
+	font-size:15px;
+	border-bottom:1px solid #999;
+}
+#condition dl{
+	float:left;
+	margin:0 20px;
+}
+#condition dl dt{
+	margin-bottom:4px;
+	font-size:14px;
+}
+#condition dl dd{
+	line-height:180%;
+}
+
+
+#main table{
+	clear:both;
+	margin:40px auto 40px auto;
+	border-collapse:collapse;
+}
+#main table tr th,td{
+	padding:5px 8px;
+	border:1px solid #999;
+}
+#main table tr td a{
+	color:blue;
+}
+#main table tr th.sortableCol{
+	cursor:pointer;
+}
+#main table tr td a:hover{
+	color:red;
+	text-decoration:underline;
+}
+#main table tr:hover{
+	background:#ffc;
+}
+#main table tr th{
+	background:lightblue
+}
+#main #search{
+	clear:both;
+	height:25px;
+	margin:20px 30% 0px 30%;
+	font-size:13px;
+}
+#main #search input.search{
+	height:22px;
+	position:relative;
+}
+#main #search input.img{
+	position:relative;
+	top:7px;
+	border-width:0;
+}
+th img.sortDirImage {
+margin-left:6px;
+margin-bottom:3px;
+}
+#main table tr td a.a{
+	color:black;
+}
+#main table tr td a.a:hover{
+	text-decoration:underline;
+}

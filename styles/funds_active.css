@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+#main span.ex{
+	display:block;
+	text-align:center;
+	color:#666;
+	padding-top:50px;
+	font-size:13px;
+
+}
+#main table{
+	clear:both;
+	margin:40px auto 40px auto;
+	border-collapse:collapse;
+}
+#main table tr th,td{
+	padding:5px 10px;
+	border:1px solid #999;
+}
+#main table tr td a{
+	color:blue;
+}
+#main table tr th.sortableCol{
+	cursor:pointer;
+}
+#main table tr td a:hover{
+	color:red;
+	text-decoration:underline;
+}
+#main table tr:hover{
+	background:#ffc;
+}
+#main table tr th{
+	background:lightblue
+}
+
+th img.sortDirImage {
+margin-left:6px;
+margin-bottom:3px;
+}
+#main table tr td a.a{
+	color:black;
+}
+#main table tr td a.a:hover{
+	text-decoration:underline;
+}
+#body p.record{
+	text-align:center;
+}
+#body p.record span{
+	color:red;
+	padding:0 2px;
+}
+div#refuse{
+	width:200px;
+	height:100px;
+	border:1px solid #ccc;
+	position:relative;
+	z-index:99999;	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

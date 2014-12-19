@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+#outmain{
+	width:650px;
+	height:810px;
+	margin:20px auto;
+	background:#B9E4F7;
+}
+#main{
+	width:600px;
+	height:770px;
+	margin:0 auto;
+	position:relative;
+	top:15px;
+	border:2px solid highlight;
+	background:#fff;
+}
+#main img{
+	width:500px;
+}
+#main h2{
+	font-size:14px;
+	color:#666;
+	padding-top:10px;
+	padding-left:10px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+#main form{
+	font-size:15px;
+	width:300px;
+	margin:30px auto 0 auto;
+}
+#main form dl dd{
+	margin-top:15px;
+}
+#main form dl dd img#waitPic{
+	width:10px;
+	height:10px;
+}
+#main form dl dd input.text{	
+	width:200px;
+	height:24px;
+	border-radius:3px; 
+}
+#main form dl dd input:focus{
+	border:1px solid #1E90FF;
+}
+#main form dl dd select{
+	height:20px;
+}
+#main form dl dd input.radio{
+	margin-left:15px;
+}
+#main form dl dd input.button{
+	width:70px;
+	height:27px;
+	margin-left:20px;
+	margin-top:25px;
+	cursor:pointer;
+}
+
+#main form dl dd input.button:hover{
+	background:inactivecaption;
+}
+#main form dl dd input.code{
+	width:75px;
+}
+#main form dl dd img#code{
+	width:75px;
+	height:25px;
+	position:relative;
+	top:8px;
+	cursor:pointer;
+}
+#citySpan,#townSpan,#waitPic {
+display:none;
+}

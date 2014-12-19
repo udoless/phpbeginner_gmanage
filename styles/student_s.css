@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+#left{
+	float:left;
+	width:280px;
+	margin-left:65px;
+	margin-bottom:50px;
+}
+#left dl{
+	width:280px;
+}
+#left dl dt{
+	background:url("../images/gif-0054.gif") no-repeat left center;
+	text-indent:18px;
+	font-size:13px;
+	font-weight:bold;
+	border-bottom:2px solid #1672BF;
+}
+#left dl dd{
+	margin-left:5px;
+	margin-top:3px;
+	background:url("../images/ico.gif") no-repeat left center;
+	text-indent:15px;
+}
+
+#right{
+	float:right;
+	width:540px;
+	margin-right:65px;
+	margin-bottom:50px;	
+}
+#right dl{
+	width:540px;
+}
+#right dl dt{
+	background:url("../images/gif-0054.gif") no-repeat left center;
+	text-indent:18px;
+	font-size:13px;
+	font-weight:bold;
+	border-bottom:2px solid #1672BF;
+}
+#right dl dd{
+	margin-left:5px;
+	margin-top:3px;
+	background:url("../images/ico.gif") no-repeat left center;
+	text-indent:15px;
+}
+#right dl dd span.stu{
+	color:blue;
+	}
+#right dl dd span.time{
+	color:#999;
+	}	

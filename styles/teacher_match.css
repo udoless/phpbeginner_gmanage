@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+#main_in{
+	width:90%;
+	margin:10px auto 0 auto;
+}
+#main_in p{
+	border-bottom:2px solid #999;
+	height:28px;
+	line-height:28px;
+}
+#main_in p span.type{
+	cursor:pointer;
+	border:1px solid #333;
+	padding:2px 10px;
+	margin:0 5px;
+}
+#main_in p span.type:hover{
+	background:#666;
+	color:#fff;
+}	
+#main_in p span.one{
+	background:#666;
+	color:#fff;
+}
+#main_in_in{
+	width:55%;                                                                                                             
+	height:200px;
+	margin:20px auto 0 auto;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+}
+#main_in legend{
+	font-size:14px;
+	border:1px solid lightblue;
+	padding:2px;
+}
+#main_in form{
+	width:50%;
+	margin:10px auto;
+}
+#main_in form input{
+	height:20px;
+	width:135px;
+	margin:5px 0;
+}
+#main_in form select{
+	height:20px;
+	margin:5px 0;
+}
+#main_in form input.submit{
+	cursor:pointer;
+	width:65px;
+	height:23px;
+	display:block;
+	margin:10px auto;
+}
+#main table{
+	margin:40px auto 40px auto;
+	border-collapse:collapse;
+}
+#main table tr th,td{
+	padding:5px 10px 5px 10px;
+	border:1px solid #999;
+}
+#main table tr td a{
+	color:blue;
+}
+#main table tr td a:hover{
+	color:red;
+	text-decoration:underline;
+}
+#main table tr:hover{
+	background:#ffc;
+}
+#main table tr th{
+	background:lightblue
+}
+#main table tr th.sortableCol{
+	cursor:pointer;
+}
+th img.sortDirImage {
+margin-left:6px;
+margin-bottom:3px;
+}

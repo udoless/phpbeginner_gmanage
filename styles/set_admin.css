@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+input{
+	background:#fff;
+	border:1px solid #999;
+	border-radius:0px; 
+	box-shadow:inset 0 0 0px #999; 
+	height:22px;
+}
+input:focus{
+	border:1px solid lightblue;
+}
+h2 {
+	font-size:14px;
+	background:#eee;
+	text-indent:0;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+#left {
+    border: 1px dashed #999999;
+    float: left;
+    height: 550px;
+    margin: 15px 0 15px 25px;
+    width: 25%;
+}
+#left dl {
+    margin: 15px auto;
+    width: 86%;
+}
+#left dl dt {
+    background:#999999;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#left dl dd {
+    background:#EEEEEE;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#left dl dd a {
+    color: #333333;
+    display: block;
+    text-decoration: none;
+}
+#left dl dd a:hover {
+    background:#CCCCCC;
+}
+#right {
+    border: 1px dashed #999999;
+    float: right;
+    height: 550px;
+    margin: 15px 25px 15px 0;
+    width: 67%;
+}
+#right dd{
+	margin:20px auto;
+	padding-bottom:5px;
+	width:80%;
+	border-bottom:1px dashed #ccc;
+}
+#right dd.area{
+	height:60px;
+}
+#right dd input.text{
+	width:160px;
+}
+#right dd input.text_l{
+	width:400px;
+}
+#right dd input.submit{
+	height:25px;
+	cursor:pointer;
+}
+#right dd input.submit:hover{
+	background:#ccc;
+}
+#right dd input.pagesize{
+	width:40px;
+}
+#footer{
+	clear:both;
+}
