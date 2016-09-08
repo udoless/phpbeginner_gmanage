@@ -46,4 +46,4 @@ define('DB_NAME', 'gmanage');    //数据库名
 
 安全方面考虑了应对`SQl注入、跨页面攻击、页面盗用`等等
 
-:exclamation: PS：我的第一个完整项目，经验不足/不懂对象/高手勿喷～:grimacing:
+:exclamation: PS：2012年写的一个完整项目，经验不足/不懂对象/高手勿喷～:grimacing:
